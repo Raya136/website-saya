@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Jakarta',
 
     /*
     |--------------------------------------------------------------------------
@@ -73,8 +73,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | The application locale determines the default locale that will be used
-    | by Laravel's translation / localization methods. This option can be
-    | set to any locale for which you plan to have translation strings.
+    | by Laravel's translation / localization methods. This option can be set to any locale for which you plan to have translation strings.
     |
     */
 
@@ -90,8 +89,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This key is utilized by Laravel's encryption services and should be set
-    | to a random, 32 character string to ensure that all encrypted values
-    | are secure. You should do this prior to deploying the application.
+    | to a random, 32 character string to ensure that all encrypted values are secure. You should do this prior to deploying the application.
     |
     */
 

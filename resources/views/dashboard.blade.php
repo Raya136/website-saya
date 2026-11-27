@@ -10,6 +10,12 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+
+                    <div class="mt-4">
+                        <a href="{{ route('messages.export') }}" class="inline-flex items-center px-4 py-2 bg-gray-800 text-white text-sm font-semibold rounded-md hover:bg-gray-700">
+                            Download Pesan Contact (Excel/CSV)
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
